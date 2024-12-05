@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@keyframes slide-loop {
+    0% {
+        transform: translateX(0); /* Inicio: sin traslación */
+    }
+    50% {
+        transform: translateX(-20px); /* Mitad: traslación completa hacia la izquierda */
+    }
+    100% {
+        transform: translateX(40); /* Final: regreso a la posición inicial */
+    }
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    height: 100%;
+    scroll-behavior: smooth;
+  }
+  
+
