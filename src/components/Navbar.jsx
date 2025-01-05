@@ -72,27 +72,27 @@ export const Navbar = () => {
         >
           <a
             href="#home"
-            className="my-2 px-6 py-3 font-light text-lg rounded hover:bg-gray-100 dark:hover:bg-gray-100"
+            className={`my-2 px-6 py-3 font-light text-lg rounded ${ isDarkMode ? 'hover:bg-slate-900' : 'hover:bg-gray-100' }`}
             onClick={toggleMenu}
           >
             Home
           </a>
           <a
             href="#about"
-            className="my-2 px-6 py-3 font-light text-lg rounded hover:bg-gray-100 dark:hover:bg-gray-100"
+            className={`my-2 px-6 py-3 font-light text-lg rounded ${ isDarkMode ? 'hover:bg-slate-900' : 'hover:bg-gray-100'}`}
             onClick={toggleMenu}
           >
             About Me
           </a>
           <a
             href="#contact"
-            className="my-2 px-6 py-3 font-light text-lg rounded hover:bg-gray-100 dark:hover:bg-gray-100"
+            className={`my-2 px-6 py-3 font-light text-lg rounded ${ isDarkMode ? 'hover:bg-slate-900' : 'hover:bg-gray-100'}`}
             onClick={toggleMenu}
           >
             Contact
           </a>
           <button
-            className="my-2 px-6 py-3 text-xl font-light rounded hover:bg-gray-100 dark:hover:bg-gray-100"
+            className={`my-2 px-6 py-3 text-xl font-light rounded ${ isDarkMode ? 'hover:bg-slate-900' : 'hover:bg-gray-100' }`}
             onClick={() => {
               toggleTheme();
               toggleMenu();
