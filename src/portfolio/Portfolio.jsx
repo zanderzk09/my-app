@@ -7,7 +7,7 @@ export const Portfolio = () => {
   const { isDarkMode } = useTheme();
 
   const keywords = [
-    "TypeScript", "JavaScript", "Tailwind CSS", "React", "Node.js", "Clothes", "Shop", "App", "URLS", "responsive",
+    "TypeScript", "JavaScript", "Tailwind CSS", "React", "Node.js", "Clothes", "Shop", "App", "URLS", "responsive","tests", "Jest",
     "Socket.io", "MongoDB", "Google API", "Giphy API", "geolocation API", "API", "REST", "Weather", "Cloudinary"
   ];
 
@@ -57,7 +57,7 @@ export const Portfolio = () => {
     {
       numberOfProject: "P R O J E C T 5",
       title: "Gif App",
-      description: "Developed with JavaScript and React, the main functionality of the application is the integration of the Giphy API. Through a search box, users can search for and explore GIFs related to various topics.",
+      description: "Developed with JavaScript and React, the main functionality of the application is the integration of the Giphy API. Through a search box, users can search for and explore GIFs related to various topics. Additionally, I implemented unit tests using Jest to ensure the reliability and correctness of the application's features.",
       tech: "Front End",
       img: '/assets/portfolio/GIF APP.png'
     },
