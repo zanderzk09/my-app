@@ -9,15 +9,15 @@ export const HomeTechnologies = () => {
 
   return (
     <div className="relaive flex mt-20 flex-col items-center">
-      <h1 className={`text-center font-bold text-4xl mb-10 ${isDarkMode ? 'bg-black text-white'  : 'bg-white text-neutral-800'}`}>
+      <h1 className={`text-center font-bold text-4xl mb-10 ${isDarkMode ? 'bg-slate-950 text-white'  : 'bg-white text-neutral-800'}`}>
         Technologies
       </h1>
-      <h1 className={`text-center -mt-6 font-bold text-1xl mb-10 ${isDarkMode ? 'bg-black text-white'  : 'bg-white text-neutral-800'} `}>
+      <h1 className={`text-center -mt-6 font-bold text-1xl mb-10 ${isDarkMode ? 'bg-slate-950 text-gray-400'  : 'bg-white text-neutral-800'} `}>
         What I currently work with 👨‍💻
       </h1>
 
-      <div className="grid grid-cols-4 lg:grid-cols-7  gap-10 place-items-center">
-        <div className={`w-20 h-20 rounded-full shadow-md flex items-center justify-center ${isDarkMode ? 'bg-neutral-950'  : 'bg-white'}`}>
+      <div className="grid grid-cols-4 lg:grid-cols-7 gap-10 place-items-center">
+        <div className={`w-20 h-20 rounded-full shadow-md flex items-center justify-center ${isDarkMode ? 'bg-slate-900'  : 'bg-white'}`}>
           <img
             src="assets/skillsImages/react.png"
             className="w-14 h-14 object-cover"
@@ -25,7 +25,7 @@ export const HomeTechnologies = () => {
           />
         </div>
 
-        <div className={`w-20 h-20 rounded-full shadow-md flex items-center justify-center ${isDarkMode ? 'bg-neutral-950'  : 'bg-white'}`}>
+        <div className={`w-20 h-20 rounded-full shadow-md flex items-center justify-center ${isDarkMode ? 'bg-slate-900'  : 'bg-white'}`}>
           <img
             src="assets/skillsImages/typescript.png"
             className="w-12 h-12 object-cover"
@@ -33,7 +33,7 @@ export const HomeTechnologies = () => {
           />
         </div>
 
-        <div className={`w-20 h-20 rounded-full shadow-md flex items-center justify-center ${isDarkMode ? 'bg-neutral-950'  : 'bg-white'}`}>
+        <div className={`w-20 h-20 rounded-full shadow-md flex items-center justify-center ${isDarkMode ? 'bg-slate-900'  : 'bg-white'}`}>
           <img
             src="assets/skillsImages/tailwind.png"
             className="w-10 h-6 object-cover"
@@ -41,7 +41,7 @@ export const HomeTechnologies = () => {
           />
         </div>
 
-        <div className={`w-20 h-20 rounded-full shadow-md flex items-center justify-center ${isDarkMode ? 'bg-neutral-950'  : 'bg-white'}`}>
+        <div className={`w-20 h-20 rounded-full shadow-md flex items-center justify-center ${isDarkMode ? 'bg-slate-900'  : 'bg-white'}`}>
           <img
             src="assets/skillsImages/nodeJS.png"
             className="w-11 h-12 object-cover"
@@ -49,7 +49,7 @@ export const HomeTechnologies = () => {
           />
         </div>
 
-        <div className={`w-20 h-20 rounded-full shadow-md flex items-center justify-center ${isDarkMode ? 'bg-neutral-950'  : 'bg-white'}`}>
+        <div className={`w-20 h-20 rounded-full shadow-md flex items-center justify-center ${isDarkMode ? 'bg-slate-900'  : 'bg-white'}`}>
           <img
             src="assets/skillsImages/js.png"
             className="w-12 h-12 object-cover"
@@ -57,7 +57,7 @@ export const HomeTechnologies = () => {
           />
         </div>
 
-        <div className={`w-20 h-20 rounded-full shadow-md flex items-center justify-center ${isDarkMode ? 'bg-neutral-950'  : 'bg-white'}`}>
+        <div className={`w-20 h-20 rounded-full shadow-md flex items-center justify-center ${isDarkMode ? 'bg-slate-900'  : 'bg-white'}`}>
           <img
             src="assets/skillsImages/jest.png"
             className="w-12 h-12 object-cover"
@@ -65,7 +65,7 @@ export const HomeTechnologies = () => {
           />
         </div>
 
-        <div className={`w-20 h-20 rounded-full shadow-md flex items-center justify-center ${isDarkMode ? 'bg-neutral-950'  : 'bg-white'}`}>
+        <div className={`w-20 h-20 rounded-full shadow-md flex items-center justify-center ${isDarkMode ? 'bg-slate-900'  : 'bg-white'}`}>
           <img
             src="assets/skillsImages/git.png"
             className="w-11 h-12 object-cover"

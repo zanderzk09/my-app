@@ -8,9 +8,9 @@ import { PortfolioButton } from './PortfolioButton';
 export const HomePage = () => {
 
   return (
-    <div className={`flex flex-col min-h-screen `}>
+    <div className={`relative flex flex-col min-h-screen `}>
 
-      <div className="">
+      <div id="home" className="">
         <Navbar />
       </div>
 
@@ -18,7 +18,7 @@ export const HomePage = () => {
         <PortfolioButton/>
       </div>
 
-      <div id="home" className="">
+      <div id="" className="">
         <HomeHeader/>
       </div>
   
